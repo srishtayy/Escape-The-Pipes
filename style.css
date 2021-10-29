@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Major {
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    overflow: hidden;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 60px;
+}
+
+#Submaj {
+    width: 53px;
+    height: 500px;
+    background-color: black;
+    left: 400px;
+    position: relative;
+    animation: Submaj 2s infinite linear;
+}
+
+@keyframes Submaj {
+    0% {
+        left: 400px
+    }
+    100% {
+        left: -50px
+    }
+}
+
+#Subsubmaj {
+    width: 53px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 400px;
+    top: -500px;
+    animation: Submaj 2s infinite linear;
+}
+
+#Subsubsubmaj {
+    width: 23px;
+    height: 23px;
+    background-color: rgb(47, 136, 177);
+    top: 103px;
+    position: absolute;
+    border-radius: 30px;
+}
